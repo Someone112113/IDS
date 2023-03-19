@@ -1,5 +1,7 @@
 set -e
 
+echo > .nojekyll
+
 npm run build
 
 cd dist

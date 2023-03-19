@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as s,a as c}from"./index-5a43ce65.js";const t={},r={class:"profile"},_=c("h1",null,"Profile",-1),n=[_];function a(i,l){return s(),o("div",r,n)}const d=e(t,[["render",a]]);export{d as default};

@@ -9,6 +9,6 @@ export default defineConfig({
       "@": resolve(__dirname, "./src"),
     },
   },
-  base: "./TaskBuddy/",
+  base: "/",
   plugins: [vue()],
 });
