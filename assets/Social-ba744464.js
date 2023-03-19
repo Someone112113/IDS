@@ -1,1 +1,0 @@
-import{_ as c,c as e,o,a as s}from"./index-5a43ce65.js";const t={},a={class:"social"},_=s("h1",null,"Social",-1),n=[_];function r(i,l){return o(),e("div",a,n)}const f=c(t,[["render",r]]);export{f as default};

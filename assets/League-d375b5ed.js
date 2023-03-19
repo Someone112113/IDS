@@ -1,0 +1,1 @@
+import{_ as e,c as s,o as c,a as o}from"./index-92a0e9e4.js";const t={},a={class:"league"},_=o("h1",null,"League",-1),n=[_];function r(d,l){return c(),s("div",a,n)}const u=e(t,[["render",r]]);export{u as default};
