@@ -4,27 +4,27 @@ import Home from "@/views/Home.vue";
 
 const routes = [
   {
-    path: "/IDS/",
+    path: "/",
     name: "Home",
     component: Home,
   },
   {
-    path: "/IDS/login",
+    path: "/login",
     name: "Login",
     component: () => import("@/views/Login.vue"),
   },
   {
-    path: "/IDS/league",
+    path: "/league",
     name: "League",
     component: () => import("@/views/League.vue"),
   },
   {
-    path: "/IDS/social",
+    path: "/social",
     name: "Social",
     component: () => import("@/views/Social.vue"),
   },
   {
-    path: "/IDS/profile",
+    path: "/profile",
     name: "Profile",
     component: () => import("@/views/Profile.vue"),
   },
