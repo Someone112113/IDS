@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <router-link to="/">
+    <router-link to="/home">
       <font-awesome-icon class="icon" icon="fa-solid fa-house" />
       Home
     </router-link>
