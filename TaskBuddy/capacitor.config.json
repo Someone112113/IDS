@@ -1,0 +1,6 @@
+{
+  "appId": "net.IDS.app",
+  "appName": "TaskBuddy",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

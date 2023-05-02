@@ -1,0 +1,140 @@
+Date : 2023-04-18 02:18:33
+Directory : c:\Users\someo\OneDrive\Documents\GitHub\IDS
+Total : 53 files,  3594 codes, 75 comments, 185 blanks, all 3854 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          8 |      2,425 |          0 |          4 |      2,429 |
+| vue                |          9 |        381 |          0 |         47 |        428 |
+| XML                |         15 |        358 |          5 |         25 |        388 |
+| Groovy             |          6 |        101 |          7 |         23 |        131 |
+| CSS                |          1 |         70 |         15 |         13 |         98 |
+| JavaScript         |          3 |         69 |          1 |          9 |         79 |
+| Batch              |          1 |         68 |          0 |         22 |         90 |
+| YAML               |          1 |         39 |          3 |          4 |         46 |
+| Java               |          3 |         27 |         11 |         14 |         52 |
+| Swift              |          1 |         25 |         13 |         12 |         50 |
+| HTML               |          1 |         13 |          0 |          1 |         14 |
+| Java Properties    |          2 |          8 |         16 |          7 |         31 |
+| JSON with Comments |          1 |          6 |          4 |          0 |         10 |
+| Markdown           |          1 |          4 |          0 |          4 |          8 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                        | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                           |         53 |      3,594 |         75 |        185 |      3,854 |
+| .github                                                                                                                                     |          1 |         39 |          3 |          4 |         46 |
+| .github\workflows                                                                                                                           |          1 |         39 |          3 |          4 |         46 |
+| TaskBuddy                                                                                                                                   |         52 |      3,555 |         72 |        181 |      3,808 |
+| TaskBuddy (Files)                                                                                                                           |          7 |      2,313 |          5 |         10 |      2,328 |
+| TaskBuddy\android                                                                                                                           |         22 |        494 |         37 |         83 |        614 |
+| TaskBuddy\android (Files)                                                                                                                   |          6 |        113 |         20 |         37 |        170 |
+| TaskBuddy\android\app                                                                                                                       |         15 |        376 |         17 |         45 |        438 |
+| TaskBuddy\android\app (Files)                                                                                                               |          2 |         59 |          3 |         14 |         76 |
+| TaskBuddy\android\app\src                                                                                                                   |         13 |        317 |         14 |         31 |        362 |
+| TaskBuddy\android\app\src\androidTest                                                                                                       |          1 |         15 |          6 |          6 |         27 |
+| TaskBuddy\android\app\src\androidTest\java                                                                                                  |          1 |         15 |          6 |          6 |         27 |
+| TaskBuddy\android\app\src\androidTest\java\com                                                                                              |          1 |         15 |          6 |          6 |         27 |
+| TaskBuddy\android\app\src\androidTest\java\com\getcapacitor                                                                                 |          1 |         15 |          6 |          6 |         27 |
+| TaskBuddy\android\app\src\androidTest\java\com\getcapacitor\myapp                                                                           |          1 |         15 |          6 |          6 |         27 |
+| TaskBuddy\android\app\src\main                                                                                                              |         11 |        293 |          3 |         20 |        316 |
+| TaskBuddy\android\app\src\main (Files)                                                                                                      |          1 |         33 |          1 |          8 |         42 |
+| TaskBuddy\android\app\src\main\java                                                                                                         |          1 |          3 |          0 |          3 |          6 |
+| TaskBuddy\android\app\src\main\java\net                                                                                                     |          1 |          3 |          0 |          3 |          6 |
+| TaskBuddy\android\app\src\main\java\net\IDS                                                                                                 |          1 |          3 |          0 |          3 |          6 |
+| TaskBuddy\android\app\src\main\java\net\IDS\app                                                                                             |          1 |          3 |          0 |          3 |          6 |
+| TaskBuddy\android\app\src\main\res                                                                                                          |          9 |        257 |          2 |          9 |        268 |
+| TaskBuddy\android\app\src\main\res\drawable                                                                                                 |          1 |        170 |          0 |          1 |        171 |
+| TaskBuddy\android\app\src\main\res\drawable-v24                                                                                             |          1 |         34 |          0 |          1 |         35 |
+| TaskBuddy\android\app\src\main\res\layout                                                                                                   |          1 |         11 |          0 |          2 |         13 |
+| TaskBuddy\android\app\src\main\res\mipmap-anydpi-v26                                                                                        |          2 |         10 |          0 |          0 |         10 |
+| TaskBuddy\android\app\src\main\res\values                                                                                                   |          3 |         27 |          2 |          5 |         34 |
+| TaskBuddy\android\app\src\main\res\xml                                                                                                      |          1 |          5 |          0 |          0 |          5 |
+| TaskBuddy\android\app\src\test                                                                                                              |          1 |          9 |          5 |          5 |         19 |
+| TaskBuddy\android\app\src\test\java                                                                                                         |          1 |          9 |          5 |          5 |         19 |
+| TaskBuddy\android\app\src\test\java\com                                                                                                     |          1 |          9 |          5 |          5 |         19 |
+| TaskBuddy\android\app\src\test\java\com\getcapacitor                                                                                        |          1 |          9 |          5 |          5 |         19 |
+| TaskBuddy\android\app\src\test\java\com\getcapacitor\myapp                                                                                  |          1 |          9 |          5 |          5 |         19 |
+| TaskBuddy\android\gradle                                                                                                                    |          1 |          5 |          0 |          1 |          6 |
+| TaskBuddy\android\gradle\wrapper                                                                                                            |          1 |          5 |          0 |          1 |          6 |
+| TaskBuddy\ios                                                                                                                               |          6 |        219 |         15 |         14 |        248 |
+| TaskBuddy\ios\App                                                                                                                           |          6 |        219 |         15 |         14 |        248 |
+| TaskBuddy\ios\App\App                                                                                                                       |          6 |        219 |         15 |         14 |        248 |
+| TaskBuddy\ios\App\App (Files)                                                                                                               |          1 |         25 |         13 |         12 |         50 |
+| TaskBuddy\ios\App\App\Assets.xcassets                                                                                                       |          3 |        145 |          0 |          0 |        145 |
+| TaskBuddy\ios\App\App\Assets.xcassets (Files)                                                                                               |          1 |          6 |          0 |          0 |          6 |
+| TaskBuddy\ios\App\App\Assets.xcassets\AppIcon.appiconset                                                                                    |          1 |        116 |          0 |          0 |        116 |
+| TaskBuddy\ios\App\App\Assets.xcassets\Splash.imageset                                                                                       |          1 |         23 |          0 |          0 |         23 |
+| TaskBuddy\ios\App\App\Base.lproj                                                                                                            |          2 |         49 |          2 |          2 |         53 |
+| TaskBuddy\public                                                                                                                            |          2 |         18 |          0 |          6 |         24 |
+| TaskBuddy\src                                                                                                                               |         14 |        510 |         15 |         68 |        593 |
+| TaskBuddy\src (Files)                                                                                                                       |          3 |        117 |         15 |         22 |        154 |
+| TaskBuddy\src\assets                                                                                                                        |          2 |          1 |          0 |          1 |          2 |
+| TaskBuddy\src\routers                                                                                                                       |          1 |         42 |          0 |          4 |         46 |
+| TaskBuddy\src\views                                                                                                                         |          8 |        350 |          0 |         41 |        391 |
+| TaskBuddy\target                                                                                                                            |          1 |          1 |          0 |          0 |          1 |
++---------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                                    | language           | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\.github\workflows\azure-static-web-apps-red-flower-08b382800.yml                               | YAML               |         39 |          3 |          4 |         46 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\README.md                                                                            | Markdown           |          4 |          0 |          4 |          8 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\build.gradle                                                             | Groovy             |         47 |          2 |          7 |         56 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\capacitor.build.gradle                                                   | Groovy             |         12 |          1 |          7 |         20 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\androidTest\java\com\getcapacitor\myapp\ExampleInstrumentedTest.java | Java               |         15 |          6 |          6 |         27 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\AndroidManifest.xml                                             | XML                |         33 |          1 |          8 |         42 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\java\net\IDS\app\MainActivity.java                              | Java               |          3 |          0 |          3 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\drawable-v24\ic_launcher_foreground.xml                     | XML                |         34 |          0 |          1 |         35 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\drawable\ic_launcher_background.xml                         | XML                |        170 |          0 |          1 |        171 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\layout\activity_main.xml                                    | XML                |         11 |          0 |          2 |         13 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\mipmap-anydpi-v26\ic_launcher.xml                           | XML                |          5 |          0 |          0 |          5 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\mipmap-anydpi-v26\ic_launcher_round.xml                     | XML                |          5 |          0 |          0 |          5 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\values\ic_launcher_background.xml                           | XML                |          4 |          0 |          0 |          4 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\values\strings.xml                                          | XML                |          7 |          0 |          1 |          8 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\values\styles.xml                                           | XML                |         16 |          2 |          4 |         22 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\main\res\xml\file_paths.xml                                          | XML                |          5 |          0 |          0 |          5 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\app\src\test\java\com\getcapacitor\myapp\ExampleUnitTest.java                | Java               |          9 |          5 |          5 |         19 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\build.gradle                                                                 | Groovy             |         20 |          3 |          7 |         30 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\capacitor.settings.gradle                                                    | Groovy             |          2 |          1 |          1 |          4 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\gradle.properties                                                            | Java Properties    |          3 |         16 |          6 |         25 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\gradle\wrapper\gradle-wrapper.properties                                     | Java Properties    |          5 |          0 |          1 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\gradlew.bat                                                                  | Batch              |         68 |          0 |         22 |         90 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\settings.gradle                                                              | Groovy             |          4 |          0 |          1 |          5 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\android\variables.gradle                                                             | Groovy             |         16 |          0 |          0 |         16 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\capacitor.config.json                                                                | JSON               |          6 |          0 |          1 |          7 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\index.html                                                                           | HTML               |         13 |          0 |          1 |         14 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\AppDelegate.swift                                                        | Swift              |         25 |         13 |         12 |         50 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\Assets.xcassets\AppIcon.appiconset\Contents.json                         | JSON               |        116 |          0 |          0 |        116 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\Assets.xcassets\Contents.json                                            | JSON               |          6 |          0 |          0 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\Assets.xcassets\Splash.imageset\Contents.json                            | JSON               |         23 |          0 |          0 |         23 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\Base.lproj\LaunchScreen.storyboard                                       | XML                |         31 |          1 |          1 |         33 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\ios\App\App\Base.lproj\Main.storyboard                                               | XML                |         18 |          1 |          1 |         20 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\jsconfig.json                                                                        | JSON with Comments |          6 |          4 |          0 |         10 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\package-lock.json                                                                    | JSON               |      2,244 |          0 |          1 |      2,245 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\package.json                                                                         | JSON               |         29 |          0 |          1 |         30 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\public\TaskBuddy_logo.svg                                                            | XML                |          9 |          0 |          5 |         14 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\public\TaskBuddy_logo_dark.svg                                                       | XML                |          9 |          0 |          1 |         10 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\App.vue                                                                          | vue                |         31 |          0 |          6 |         37 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\assets\ranking.json                                                              | JSON               |          0 |          0 |          1 |          1 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\assets\vue.svg                                                                   | XML                |          1 |          0 |          0 |          1 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\main.js                                                                          | JavaScript         |         16 |          0 |          3 |         19 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\routers\index.js                                                                 | JavaScript         |         42 |          0 |          4 |         46 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\style.css                                                                        | CSS                |         70 |         15 |         13 |         98 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\CreateList.vue                                                             | vue                |         58 |          0 |          6 |         64 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Header.vue                                                                 | vue                |         19 |          0 |          2 |         21 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Home.vue                                                                   | vue                |         72 |          0 |          5 |         77 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\League.vue                                                                 | vue                |          5 |          0 |          1 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Login.vue                                                                  | vue                |        136 |          0 |         19 |        155 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Navigation.vue                                                             | vue                |         50 |          0 |          6 |         56 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Profile.vue                                                                | vue                |          5 |          0 |          1 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\src\views\Social.vue                                                                 | vue                |          5 |          0 |          1 |          6 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\target\npmlist.json                                                                  | JSON               |          1 |          0 |          0 |          1 |
+| c:\Users\someo\OneDrive\Documents\GitHub\IDS\TaskBuddy\vite.config.js                                                                       | JavaScript         |         11 |          1 |          2 |         14 |
+| Total                                                                                                                                       |                    |      3,594 |         75 |        185 |      3,854 |
++---------------------------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

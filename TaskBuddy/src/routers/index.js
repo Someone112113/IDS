@@ -32,6 +32,11 @@ const routes = [
     name: "Profile",
     component: () => import("@/views/Profile.vue"),
   },
+  {
+    path: "/create-list",
+    name: "CreateList",
+    component: () => import("@/views/CreateList.vue"),
+  },
 ];
 
 export default createRouter({

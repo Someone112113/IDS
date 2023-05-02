@@ -2,7 +2,6 @@
 export default {
   methods: {
     submit() {
-      //if you want to send any data into server before redirection then you can do it here
       this.$router.push("/home");
     },
   },
@@ -12,16 +11,8 @@ export default {
 <template>
   <div class="login">
     <picture>
-      <source
-        srcset="/TaskBuddy_logo_dark.svg"
-        media="(prefers-color-scheme: dark)"
-      />
-      <img
-        src="/TaskBuddy_logo.svg"
-        alt="TaskBuddy logo"
-        height="300"
-        width="300"
-      />
+      <!-- <source srcset="/TaskBuddy_logo_dark.svg" media="(prefers-color-scheme: dark)" /> -->
+      <img src="/TaskBuddy_logo.svg" alt="TaskBuddy logo" height="300" width="300" />
     </picture>
 
     <form>
@@ -45,6 +36,7 @@ export default {
 
 <style scoped>
 .login {
+  background: rgb(255, 252, 240);
   box-sizing: border-box;
   width: 100%;
   align-self: stretch;
@@ -87,17 +79,19 @@ label {
   font-size: x-large;
 }
 
-input:focus ~ label,
-input:valid ~ label {
+input:focus~label,
+input:valid~label {
   bottom: 2em;
   font-size: medium;
   opacity: 0.8;
 }
 
 button {
-  background-color: yellow;
+  background: yellow;
   width: 100%;
+  height: auto;
   border: none;
+  border-radius: 8px;
   color: black;
   padding: 15px 32px;
   text-align: center;
@@ -132,13 +126,7 @@ button:active {
   margin-bottom: 0.2em;
 }
 
-@media screen and (min-width: 1024px) {
-  .login {
-    padding: 1em;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   input {
     border-bottom: solid 1px white;
   }
@@ -151,5 +139,5 @@ button:active {
   input:valid ~ label {
     color: yellow;
   }
-}
+} */
 </style>

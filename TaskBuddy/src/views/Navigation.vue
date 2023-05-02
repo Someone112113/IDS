@@ -2,23 +2,15 @@
   <nav>
     <router-link to="/home">
       <font-awesome-icon class="icon" icon="fa-solid fa-house" />
-      Home
     </router-link>
     <router-link to="/league">
       <font-awesome-icon class="icon" icon="fa-solid fa-ranking-star" />
-      League
     </router-link>
     <router-link to="/social">
       <font-awesome-icon class="icon" icon="fa-solid fa-users" />
-      Social
     </router-link>
     <router-link to="/profile">
-      <img
-        class="icon profile-picture"
-        src="@/assets/profile-picture.jpg"
-        alt="Profile picture"
-      />
-      Profile
+      <img class="icon profile-picture" src="@/assets/profile-picture.jpg" alt="Profile picture" />
     </router-link>
   </nav>
 </template>
@@ -30,8 +22,7 @@
 }
 
 nav {
-  position: fixed;
-  bottom: -1px;
+  position: relative;
   left: -1px;
   right: -1px;
   width: auto;
@@ -40,7 +31,7 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1); */
 }
 
 nav * {
