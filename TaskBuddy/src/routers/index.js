@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-import Home from "@/views/Home.vue";
+import Home from "../views/Home.vue";
 
 const routes = [
   {
@@ -15,27 +15,17 @@ const routes = [
   {
     path: "/login",
     name: "Login",
-    component: () => import("@/views/Login.vue"),
+    component: () => import("../views/Login.vue"),
   },
   {
-    path: "/league",
-    name: "League",
-    component: () => import("@/views/League.vue"),
-  },
-  {
-    path: "/social",
-    name: "Social",
-    component: () => import("@/views/Social.vue"),
+    path: "/task/:groupId",
+    name: "Task",
+    component: () => import("../views/Task.vue"),
   },
   {
     path: "/profile",
     name: "Profile",
-    component: () => import("@/views/Profile.vue"),
-  },
-  {
-    path: "/create-list",
-    name: "CreateList",
-    component: () => import("@/views/CreateList.vue"),
+    component: () => import("../views/Profile.vue"),
   },
 ];
 

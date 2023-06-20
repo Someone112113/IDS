@@ -1,36 +1,39 @@
 <script>
-import Navigation from "@/views/Navigation.vue";
-import Header from "@/views/Header.vue";
+import Header from "./views/Header.vue";
 
 export default {
   components: {
-    Navigation,
     Header,
   },
-
+  data() {
+    return {
+      taskName: "TaskBuddy"
+    }
+  },
   computed: {
-    currentRouteName() {
+    pageName() {
+      if (this.$route.name === "Task") {
+        return this.taskName;
+      }
       return this.$route.name;
-    },
+    }
   },
 };
 </script>
 
 <template>
-  <Header v-if="!(this.currentRouteName === 'Login')"></Header>
-  <router-view class="router-view"></router-view>
-  <Navigation v-if="!(this.currentRouteName === 'Login')"></Navigation>
+  <Header v-if="!(this.pageName === 'Login')">{{ this.pageName }}</Header>
+  <router-view class="router-view" @pageName="(name) => taskName = name"></router-view>
 </template>
 
 <style scoped>
 .router-view {
   height: 100%;
-  background: linear-gradient(#ffa654, #a80808);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .router-view {
     background-color: var(--dark-background);
   }
-} */
+}
 </style>

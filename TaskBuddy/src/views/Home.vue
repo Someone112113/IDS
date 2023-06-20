@@ -2,52 +2,61 @@
 export default {
   data() {
     return {
-      lists: [
+      taskGroup: [
         {
-          name: "List 1",
+          id: 1,
+          name: "Task Group 1",
+          members: [
+            "Member 1",
+            "Member 2",
+            "Member 3",
+          ]
         },
         {
-          name: "List 2",
-        },
-        {
-          name: "List 3",
-        },
+          id: 2,
+          name: "Task Group 2",
+          members: [
+            "Member 4",
+            "Member 5",
+          ]
+        }
       ],
     };
   },
   methods: {
-    handleCreateNewList() {
-      this.$router.push("/create-list");
-    },
-  },
-  mounted() {
-    if (localStorage.lists) {
-      this.lists = JSON.parse(localStorage.lists);
-    } else {
-      localStorage.lists = JSON.stringify(this.lists);
-    }
-  },
-  watch: {
-    lists(newLists) {
-      localStorage.lists = JSON.stringify(newLists);
+    display(members) {
+      return members.join(", ");
     }
   }
-};
+}
 </script>
 
 <template>
   <div class="home">
-    <h2>YOUR TASKS</h2>
-    <div class="task-list">
-      <p v-if="lists.length === 0">You have not been assigned any new tasks!</p>
-      <div v-else v-for="list in lists" class="list-item">
-        <span>{{ list.name }}</span>
-        <span> > </span>
-      </div>
-      <button @click="handleCreateNewList">
-        Create New List
-      </button>
+    <div class="greeting">
+      <span>
+        Welcome to TaskBuddy!
+      </span>
+      <span class="username">
+        <slot>Please login or register to continue.</slot>
+      </span>
     </div>
+
+    <main>
+      <div v-if="!taskGroup.length">
+        <span>
+          Welcome to Task Buddy! <br>
+          <br>
+          Click the button below to create or join a task list.
+        </span>
+      </div>
+      <router-link v-else v-for="group in  taskGroup " :to="{ name: 'Task', params: { groupId: group.id } }"
+        class="group-card">
+        <span class="group-name">{{ group.name }}</span>
+        <br>
+        <span class="group-members">{{ display(group.members) }}</span>
+      </router-link>
+    </main>
   </div>
 </template>
 
@@ -55,39 +64,57 @@ export default {
 .home {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  padding: 10%;
   gap: 10px;
+  min-height: 100%;
+  padding: 15px;
+  background: url(../assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
 }
 
-.task-list {
+.greeting {
+  align-self: flex-start;
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.25em;
+}
+
+.username {
+  font-weight: bold;
+}
+
+main {
+  box-sizing: border-box;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 20px;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  background-color: #f5f5f5;
-  padding: 20px 0;
-  overflow-y: auto;
+  gap: 10px;
 }
 
-.list-item {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+main>* {
+  background: var(--secondary);
+  border-radius: 10px;
+  padding: 10px;
   box-sizing: border-box;
   width: 100%;
-  height: 50px;
-  background-color: #7e7d7d;
-  color: white;
-  padding: 20px;
+}
+
+.group-card {
+  text-align: left;
+  color: initial;
+}
+
+.group-name {
+  font-weight: bold;
+}
+
+.group-members {
+  opacity: 0.7;
 }
 </style>
